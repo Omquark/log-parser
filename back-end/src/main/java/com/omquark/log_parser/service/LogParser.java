@@ -35,31 +35,34 @@ public class LogParser {
     /**
      * Parses log files into a string when received from the logger.
      *
-     * @param logFile The log string to parse. It's is expected in a JSON format whose object looks as
+     * @param logFile The log string to parse. It's expected in a JSON format whose object looks as
      *                {
-     *                "pc counter": {
-     *                "register": "value"...
-     *                }, ...
+     *                  "register": "value"...
+     *                  "register": "value"...
      *                }
+     *                registers are any register within the SNES, specifically the A, X, Y, PC, S, D, and P registers
      * @return A refined log of the values in hexadecimal, used for tracking to determine when reads/writes
      * occur. Specifically designed to be used in documenting and decompiling sections of code from a ROM.
      */
     public static String parse(String logFile, String cpuType) {
         ObjectMapper objectMapper = new ObjectMapper();
         List<Cpu65816> cpuList = null;
+        String result = "";
+
         try {
             cpuList = objectMapper.readValue(logFile, new TypeReference<>() {
             });
-
             cpuList.sort(Comparator.comparingInt(a -> a.pc));
+            result = objectMapper.writeValueAsString(cpuList);
+            System.out.println("logFile" + logFile);
+            System.out.println("result" + result);
         } catch (Exception e) {
             e.printStackTrace();
+            return "{\"status\":\"FAIL\"}";
         }
 
-        if (cpuList != null) {
-            cpuList.forEach((cpu) -> System.out.println(cpu.pc));
-        }
+//        cpuList.forEach((cpu) -> System.out.println(cpu.pc));
 
-        return "";
+        return result;
     }
 }
