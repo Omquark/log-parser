@@ -1,0 +1,5 @@
+Back end: 
+	Obtains and validates the log is in correct format
+	Sanitize the string. No characters except JSON, no letters except acdpsxy
+	Use scoring system to determine entry point.
+	Use logs to cycle through opcodes, emulate RAM writes and path through the ROM.
