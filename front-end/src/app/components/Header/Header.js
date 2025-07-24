@@ -3,14 +3,10 @@
 import { UserPrefContext } from "@/app/layout";
 import { useContext, useEffect, useState } from "react";
 import { FaRegMoon, FaRegSun } from "react-icons/fa";
-import { IoLogOutOutline } from 'react-icons/io5'
 
 export default function Header() {
 
     const { prefs, setPrefs } = useContext(UserPrefContext);
-
-    // useEffect(() => {
-    // }, []);
 
     return (
         <header className={

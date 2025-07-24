@@ -1,0 +1,3709 @@
+{
+	"0x69": {
+		"value": "0x69",
+		"mnemonic": "ADC",
+		"bytes": "2",
+		"flagsRead": [
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Add with carry",
+		"effectedBy": "M",
+		"addressingMode": "Immediate"
+	},
+	"0x6D": {
+		"value": "0x6D",
+		"mnemonic": "ADC",
+		"bytes": "3",
+		"flagsRead": [
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Add with carry",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0x6F": {
+		"value": "0x6F",
+		"mnemonic": "ADC",
+		"bytes": "4",
+		"flagsRead": [
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Add with carry",
+		"effectedBy": "",
+		"addressingMode": "Absolute Long"
+	},
+	"0x65": {
+		"value": "0x65",
+		"mnemonic": "ADC",
+		"bytes": "2",
+		"flagsRead": [
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Add with carry",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0x72": {
+		"value": "0x72",
+		"mnemonic": "ADC",
+		"bytes": "2",
+		"flagsRead": [
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Add with carry",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect"
+	},
+	"0x67": {
+		"value": "0x67",
+		"mnemonic": "ADC",
+		"bytes": "2",
+		"flagsRead": [
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Add with carry",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Long"
+	},
+	"0x7D": {
+		"value": "0x7D",
+		"mnemonic": "ADC",
+		"bytes": "3",
+		"flagsRead": [
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Add with carry",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, X"
+	},
+	"0x7F": {
+		"value": "0x7F",
+		"mnemonic": "ADC",
+		"bytes": "4",
+		"flagsRead": [
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Add with carry",
+		"effectedBy": "",
+		"addressingMode": "Absolute Long Indexed, X"
+	},
+	"0x79": {
+		"value": "0x79",
+		"mnemonic": "ADC",
+		"bytes": "3",
+		"flagsRead": [
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Add with carry",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, Y"
+	},
+	"0x75": {
+		"value": "0x75",
+		"mnemonic": "ADC",
+		"bytes": "2",
+		"flagsRead": [
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Add with carry",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, X"
+	},
+	"0x61": {
+		"value": "0x61",
+		"mnemonic": "ADC",
+		"bytes": "2",
+		"flagsRead": [
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Add with carry",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed Indirect, X"
+	},
+	"0x71": {
+		"value": "0x71",
+		"mnemonic": "ADC",
+		"bytes": "2",
+		"flagsRead": [
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Add with carry",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Indexed, Y"
+	},
+	"0x77": {
+		"value": "0x77",
+		"mnemonic": "ADC",
+		"bytes": "2",
+		"flagsRead": [
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Add with carry",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Long Indexed, Y"
+	},
+	"0x63": {
+		"value": "0x63",
+		"mnemonic": "ADC",
+		"bytes": "2",
+		"flagsRead": [
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Add with carry",
+		"effectedBy": "",
+		"addressingMode": "Stack Relative"
+	},
+	"0x73": {
+		"value": "0x73",
+		"mnemonic": "ADC",
+		"bytes": "2",
+		"flagsRead": [
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Add with carry",
+		"effectedBy": "",
+		"addressingMode": "Stack relative Indirect Indexed, Y"
+	},
+	"0x29": {
+		"value": "0x29",
+		"mnemonic": "AND",
+		"bytes": "2",
+		"flagsRead": [
+			""
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "And Accumulator with Memory",
+		"effectedBy": "M",
+		"addressingMode": "Immediate"
+	},
+	"0x2D": {
+		"value": "0x2D",
+		"mnemonic": "AND",
+		"bytes": "3",
+		"flagsRead": [
+			""
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "And Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0x2F": {
+		"value": "0x2F",
+		"mnemonic": "AND",
+		"bytes": "4",
+		"flagsRead": [
+			""
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "And Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Long"
+	},
+	"0x25": {
+		"value": "0x25",
+		"mnemonic": "AND",
+		"bytes": "2",
+		"flagsRead": [
+			""
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "And Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0x32": {
+		"value": "0x32",
+		"mnemonic": "AND",
+		"bytes": "2",
+		"flagsRead": [
+			""
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "And Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect"
+	},
+	"0x27": {
+		"value": "0x27",
+		"mnemonic": "AND",
+		"bytes": "2",
+		"flagsRead": [
+			""
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "And Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Long"
+	},
+	"0x3D": {
+		"value": "0x3D",
+		"mnemonic": "AND",
+		"bytes": "3",
+		"flagsRead": [
+			""
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "And Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, X"
+	},
+	"0x3F": {
+		"value": "0x3F",
+		"mnemonic": "AND",
+		"bytes": "4",
+		"flagsRead": [
+			""
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "And Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Long Indexed, X"
+	},
+	"Absolute Indexed, Y": {
+		"value": "Absolute Indexed, Y",
+		"mnemonic": "AND",
+		"bytes": "3",
+		"flagsRead": [
+			""
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "And Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, Y"
+	},
+	"0x35": {
+		"value": "0x35",
+		"mnemonic": "AND",
+		"bytes": "2",
+		"flagsRead": [
+			""
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "And Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, X"
+	},
+	"0x21": {
+		"value": "0x21",
+		"mnemonic": "AND",
+		"bytes": "2",
+		"flagsRead": [
+			""
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "And Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed Indirect, X"
+	},
+	"0x31": {
+		"value": "0x31",
+		"mnemonic": "AND",
+		"bytes": "2",
+		"flagsRead": [
+			""
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "And Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Indexed, Y"
+	},
+	"0x37": {
+		"value": "0x37",
+		"mnemonic": "AND",
+		"bytes": "2",
+		"flagsRead": [
+			""
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "And Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Long Indexed, Y"
+	},
+	"0x23": {
+		"value": "0x23",
+		"mnemonic": "AND",
+		"bytes": "2",
+		"flagsRead": [
+			""
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "And Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Stack Relative"
+	},
+	"0x33": {
+		"value": "0x33",
+		"mnemonic": "AND",
+		"bytes": "2",
+		"flagsRead": [
+			""
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "And Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Stack Relative Indirect Indexed, Y"
+	},
+	"0x0A": {
+		"value": "0x0A",
+		"mnemonic": "ASL",
+		"bytes": "1",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Shift Memory or Accumulator Left",
+		"effectedBy": "",
+		"addressingMode": "Accumulator"
+	},
+	"0x0E": {
+		"value": "0x0E",
+		"mnemonic": "ASL",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Shift Memory or Accumulator Left",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0x06": {
+		"value": "0x06",
+		"mnemonic": "ASL",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Shift Memory or Accumulator Left",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0x1E": {
+		"value": "0x1E",
+		"mnemonic": "ASL",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Shift Memory or Accumulator Left",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, X"
+	},
+	"0x16": {
+		"value": "0x16",
+		"mnemonic": "ASL",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Shift Memory or Accumulator Left",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, X"
+	},
+	"0x90": {
+		"value": "0x90",
+		"mnemonic": "BCC",
+		"bytes": "2",
+		"flagsRead": [
+			"C"
+		],
+		"flagsWritten": [],
+		"fullName": "Branch if Carry Clear",
+		"effectedBy": "",
+		"addressingMode": "Program Counter Relative"
+	},
+	"0xB0": {
+		"value": "0xB0",
+		"mnemonic": "BCS",
+		"bytes": "02",
+		"flagsRead": [
+			"C"
+		],
+		"flagsWritten": [],
+		"fullName": "Branch if Carry Set",
+		"effectedBy": "",
+		"addressingMode": "Program Counter Relative"
+	},
+	"0xF0": {
+		"value": "0xF0",
+		"mnemonic": "BEQ",
+		"bytes": "2",
+		"flagsRead": [
+			"Z"
+		],
+		"flagsWritten": [],
+		"fullName": "Branch if Equal",
+		"effectedBy": "",
+		"addressingMode": "Program Counter Realtive"
+	},
+	"0x89": {
+		"value": "0x89",
+		"mnemonic": "BIT",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"Z"
+		],
+		"fullName": "Test Memory Bits Against Accumulator",
+		"effectedBy": "M",
+		"addressingMode": "Immediate"
+	},
+	"0x2C": {
+		"value": "0x2C",
+		"mnemonic": "BIT",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z"
+		],
+		"fullName": "Test Memory Bits Against Accumulator",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0x24": {
+		"value": "0x24",
+		"mnemonic": "BIT",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z"
+		],
+		"fullName": "Test Memory Bits Against Accumulator",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0x3C": {
+		"value": "0x3C",
+		"mnemonic": "BIT",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z"
+		],
+		"fullName": "Test Memory Bits Against Accumulator",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, X"
+	},
+	"0x34": {
+		"value": "0x34",
+		"mnemonic": "BIT",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z"
+		],
+		"fullName": "Test Memory Bits Against Accumulator",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, X"
+	},
+	"0x30": {
+		"value": "0x30",
+		"mnemonic": "BMI",
+		"bytes": "2",
+		"flagsRead": [
+			"N"
+		],
+		"flagsWritten": [],
+		"fullName": "Branch if Minus",
+		"effectedBy": "",
+		"addressingMode": "Program Counter Relative"
+	},
+	"0xD0": {
+		"value": "0xD0",
+		"mnemonic": "BNE",
+		"bytes": "2",
+		"flagsRead": [
+			"Z"
+		],
+		"flagsWritten": [],
+		"fullName": "Branch if Not Equal",
+		"effectedBy": "",
+		"addressingMode": "Program Counter Relative"
+	},
+	"0x10": {
+		"value": "0x10",
+		"mnemonic": "BPL",
+		"bytes": "2",
+		"flagsRead": [
+			"N"
+		],
+		"flagsWritten": [],
+		"fullName": "Branch if Plus",
+		"effectedBy": "",
+		"addressingMode": "Prograsm Counter Relative"
+	},
+	"0x80": {
+		"value": "0x80",
+		"mnemonic": "BRA",
+		"bytes": "2",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Branch Always",
+		"effectedBy": "",
+		"addressingMode": "Program Counter Relative"
+	},
+	"0x00": {
+		"value": "0x00",
+		"mnemonic": "BRK",
+		"bytes": "2",
+		"flagsRead": [],
+		"flagsWritten": [
+			"B",
+			"D"
+		],
+		"fullName": "Software Break",
+		"effectedBy": "",
+		"addressingMode": "Stack/Interrupt"
+	},
+	"0x82": {
+		"value": "0x82",
+		"mnemonic": "BRL",
+		"bytes": "3",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Branch Always Long",
+		"effectedBy": "",
+		"addressingMode": "Program Counter Relative"
+	},
+	"0x50": {
+		"value": "0x50",
+		"mnemonic": "BVC",
+		"bytes": "2",
+		"flagsRead": [
+			"V"
+		],
+		"flagsWritten": [],
+		"fullName": "Branch if Overflow Clear",
+		"effectedBy": "",
+		"addressingMode": "Program Counter Relative"
+	},
+	"0x70": {
+		"value": "0x70",
+		"mnemonic": "BVS",
+		"bytes": "2",
+		"flagsRead": [
+			"V"
+		],
+		"flagsWritten": [],
+		"fullName": "Branch if Overflow Set",
+		"effectedBy": "",
+		"addressingMode": "Program Counter Relative"
+	},
+	"0x18": {
+		"value": "0x18",
+		"mnemonic": "CLD",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [
+			"D"
+		],
+		"fullName": "Clear Decimal Flag",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0x58": {
+		"value": "0x58",
+		"mnemonic": "CLI",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [
+			"I"
+		],
+		"fullName": "Clear Interrupt",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0xB8": {
+		"value": "0xB8",
+		"mnemonic": "CLV",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [
+			"V"
+		],
+		"fullName": "Clear Overflow",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0xC9": {
+		"value": "0xC9",
+		"mnemonic": "CMP",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Accumulator with Memory",
+		"effectedBy": "M",
+		"addressingMode": "Immediate"
+	},
+	"0xCD": {
+		"value": "0xCD",
+		"mnemonic": "CMP",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0xCF": {
+		"value": "0xCF",
+		"mnemonic": "CMP",
+		"bytes": "4",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Long"
+	},
+	"0xC5": {
+		"value": "0xC5",
+		"mnemonic": "CMP",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0xD2": {
+		"value": "0xD2",
+		"mnemonic": "CMP",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect"
+	},
+	"0xC7": {
+		"value": "0xC7",
+		"mnemonic": "CMP",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Long"
+	},
+	"0xDD": {
+		"value": "0xDD",
+		"mnemonic": "CMP",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, X"
+	},
+	"0xDF": {
+		"value": "0xDF",
+		"mnemonic": "CMP",
+		"bytes": "4",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Long Indirect Indexed, X"
+	},
+	"0xD9": {
+		"value": "0xD9",
+		"mnemonic": "CMP",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, Y"
+	},
+	"0xD5": {
+		"value": "0xD5",
+		"mnemonic": "CMP",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, X"
+	},
+	"0xC1": {
+		"value": "0xC1",
+		"mnemonic": "CMP",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed Indirect, X"
+	},
+	"0xD1": {
+		"value": "0xD1",
+		"mnemonic": "CMP",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Indexed, Y"
+	},
+	"0xD7": {
+		"value": "0xD7",
+		"mnemonic": "CMP",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Long Indexed, Y"
+	},
+	"0xC3": {
+		"value": "0xC3",
+		"mnemonic": "CMP",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Stack Relative"
+	},
+	"0xD3": {
+		"value": "0xD3",
+		"mnemonic": "CMP",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Stack Relative Indirect Indexed, Y"
+	},
+	"0x02": {
+		"value": "0x02",
+		"mnemonic": "COP",
+		"bytes": "2",
+		"flagsRead": [
+			"E"
+		],
+		"flagsWritten": [
+			"D",
+			"I"
+		],
+		"fullName": "Co-Processor Enable",
+		"effectedBy": "",
+		"addressingMode": "Stack/Interrupt"
+	},
+	"0xE0": {
+		"value": "0xE0",
+		"mnemonic": "CPX",
+		"bytes": "2",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Index Register X with Memory",
+		"effectedBy": "X",
+		"addressingMode": "Immediate"
+	},
+	"0xEC": {
+		"value": "0xEC",
+		"mnemonic": "CPX",
+		"bytes": "3",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Index Register X with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0xE4": {
+		"value": "0xE4",
+		"mnemonic": "CPX",
+		"bytes": "2",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Index Register X with Memory",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0xC0": {
+		"value": "0xC0",
+		"mnemonic": "CPY",
+		"bytes": "2",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Index Register Y with Memory",
+		"effectedBy": "X",
+		"addressingMode": "Immediate"
+	},
+	"0xCC": {
+		"value": "0xCC",
+		"mnemonic": "CPY",
+		"bytes": "3",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Index Register Y with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0xC4": {
+		"value": "0xC4",
+		"mnemonic": "CPY",
+		"bytes": "2",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Compare Index Register Y with Memory",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0x3A": {
+		"value": "0x3A",
+		"mnemonic": "DEC",
+		"bytes": "1",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Decrement",
+		"effectedBy": "",
+		"addressingMode": "Accumulator"
+	},
+	"0xCE": {
+		"value": "0xCE",
+		"mnemonic": "DEC",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Decrement",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0xC6": {
+		"value": "0xC6",
+		"mnemonic": "DEC",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Decrement",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0cDE": {
+		"value": "0cDE",
+		"mnemonic": "DEC",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Decrement",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, X"
+	},
+	"0xD6": {
+		"value": "0xD6",
+		"mnemonic": "DEC",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Decrement",
+		"effectedBy": "",
+		"addressingMode": ""
+	},
+	"0xCA": {
+		"value": "0xCA",
+		"mnemonic": "DEX",
+		"bytes": "1",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Decrement Index Register X",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0x88": {
+		"value": "0x88",
+		"mnemonic": "DEY",
+		"bytes": "1",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Decrement Index Register Y",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0x49": {
+		"value": "0x49",
+		"mnemonic": "EOR",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Exclusive-OR Accumulator with Memory",
+		"effectedBy": "M",
+		"addressingMode": "Immediate"
+	},
+	"0x4D": {
+		"value": "0x4D",
+		"mnemonic": "EOR",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Exclusive-OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0x4F": {
+		"value": "0x4F",
+		"mnemonic": "EOR",
+		"bytes": "4",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Exclusive-OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Long"
+	},
+	"0x45": {
+		"value": "0x45",
+		"mnemonic": "EOR",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Exclusive-OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0x52": {
+		"value": "0x52",
+		"mnemonic": "EOR",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Exclusive-OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect"
+	},
+	"0x47": {
+		"value": "0x47",
+		"mnemonic": "EOR",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Exclusive-OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Long"
+	},
+	"0x5D": {
+		"value": "0x5D",
+		"mnemonic": "EOR",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Exclusive-OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indirect, X"
+	},
+	"0x5F": {
+		"value": "0x5F",
+		"mnemonic": "EOR",
+		"bytes": "4",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Exclusive-OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Long Indexed, X"
+	},
+	"0x59": {
+		"value": "0x59",
+		"mnemonic": "EOR",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Exclusive-OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, Y"
+	},
+	"0x55": {
+		"value": "0x55",
+		"mnemonic": "EOR",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Exclusive-OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, X"
+	},
+	"0x41": {
+		"value": "0x41",
+		"mnemonic": "EOR",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Exclusive-OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed Indirect, X"
+	},
+	"0x51": {
+		"value": "0x51",
+		"mnemonic": "EOR",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Exclusive-OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Indexed, Y"
+	},
+	"0x57": {
+		"value": "0x57",
+		"mnemonic": "EOR",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Exclusive-OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Long Indexed, Y"
+	},
+	"0x43": {
+		"value": "0x43",
+		"mnemonic": "EOR",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Exclusive-OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Stack Relative"
+	},
+	"0x53": {
+		"value": "0x53",
+		"mnemonic": "EOR",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Exclusive-OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Stack Relative Indirect Indexed, Y"
+	},
+	"0x1A": {
+		"value": "0x1A",
+		"mnemonic": "INC",
+		"bytes": "1",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"M",
+			"Z"
+		],
+		"fullName": "Increment",
+		"effectedBy": "",
+		"addressingMode": "Accumulator"
+	},
+	"0xEE": {
+		"value": "0xEE",
+		"mnemonic": "INC",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"M",
+			"Z"
+		],
+		"fullName": "Increment",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0xE6": {
+		"value": "0xE6",
+		"mnemonic": "INC",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"M",
+			"Z"
+		],
+		"fullName": "Increment",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0xFE": {
+		"value": "0xFE",
+		"mnemonic": "INC",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"M",
+			"Z"
+		],
+		"fullName": "Increment",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, X"
+	},
+	"0xF6": {
+		"value": "0xF6",
+		"mnemonic": "INC",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"M",
+			"Z"
+		],
+		"fullName": "Increment",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, X"
+	},
+	"0xE8": {
+		"value": "0xE8",
+		"mnemonic": "INX",
+		"bytes": "1",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Increment Index Register X",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0xC8": {
+		"value": "0xC8",
+		"mnemonic": "INY",
+		"bytes": "1",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Increment Index Register Y",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0x4C": {
+		"value": "0x4C",
+		"mnemonic": "JMP",
+		"bytes": "3",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Jump",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0x6C": {
+		"value": "0x6C",
+		"mnemonic": "JMP",
+		"bytes": "3",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Jump",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indirect"
+	},
+	"0x7C": {
+		"value": "0x7C",
+		"mnemonic": "JMP",
+		"bytes": "3",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Jump",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed"
+	},
+	"0x5C": {
+		"value": "0x5C",
+		"mnemonic": "JMP",
+		"bytes": "4",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Jump",
+		"effectedBy": "",
+		"addressingMode": "Absolute Long"
+	},
+	"0xDC": {
+		"value": "0xDC",
+		"mnemonic": "JMP",
+		"bytes": "3",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Jump",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indirect Long"
+	},
+	"0x22": {
+		"value": "0x22",
+		"mnemonic": "JSL",
+		"bytes": "4",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Jump to Subroutine",
+		"effectedBy": "",
+		"addressingMode": "Absolute Long"
+	},
+	"0x20": {
+		"value": "0x20",
+		"mnemonic": "JSR",
+		"bytes": "3",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Jump to Subroutine",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0xFC": {
+		"value": "0xFC",
+		"mnemonic": "JSR",
+		"bytes": "3",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Jump to Subroutine",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed Indirect"
+	},
+	"0xA9": {
+		"value": "0xA9",
+		"mnemonic": "LDA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Accumulator from Memory",
+		"effectedBy": "M",
+		"addressingMode": "Immediate"
+	},
+	"0xAD": {
+		"value": "0xAD",
+		"mnemonic": "LDA",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Accumulator from Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0xAF": {
+		"value": "0xAF",
+		"mnemonic": "LDA",
+		"bytes": "4",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Accumulator from Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Long"
+	},
+	"0xA5": {
+		"value": "0xA5",
+		"mnemonic": "LDA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Accumulator from Memory",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0xB2": {
+		"value": "0xB2",
+		"mnemonic": "LDA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Accumulator from Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect"
+	},
+	"0xA7": {
+		"value": "0xA7",
+		"mnemonic": "LDA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Accumulator from Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Long"
+	},
+	"0xBD": {
+		"value": "0xBD",
+		"mnemonic": "LDA",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Accumulator from Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, X"
+	},
+	"0xBF": {
+		"value": "0xBF",
+		"mnemonic": "LDA",
+		"bytes": "4",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Accumulator from Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Long Indexed, X"
+	},
+	"0xB9": {
+		"value": "0xB9",
+		"mnemonic": "LDA",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Accumulator from Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, Y"
+	},
+	"0xB5": {
+		"value": "0xB5",
+		"mnemonic": "LDA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Accumulator from Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, X"
+	},
+	"0xA1": {
+		"value": "0xA1",
+		"mnemonic": "LDA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Accumulator from Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed Indirect, X"
+	},
+	"0xB1": {
+		"value": "0xB1",
+		"mnemonic": "LDA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Accumulator from Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Indexed, Y"
+	},
+	"0xB7": {
+		"value": "0xB7",
+		"mnemonic": "LDA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Accumulator from Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Long Indexed, Y"
+	},
+	"0xA3": {
+		"value": "0xA3",
+		"mnemonic": "LDA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Accumulator from Memory",
+		"effectedBy": "",
+		"addressingMode": "Stack Relative"
+	},
+	"0xB3": {
+		"value": "0xB3",
+		"mnemonic": "LDA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Accumulator from Memory",
+		"effectedBy": "",
+		"addressingMode": "Stack Relative Indexed, Y"
+	},
+	"0xA2": {
+		"value": "0xA2",
+		"mnemonic": "LDX",
+		"bytes": "2",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Index Register X from Memory",
+		"effectedBy": "X",
+		"addressingMode": "Immediate"
+	},
+	"0xAE": {
+		"value": "0xAE",
+		"mnemonic": "LDX",
+		"bytes": "3",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Index Register X from Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0xA6": {
+		"value": "0xA6",
+		"mnemonic": "LDX",
+		"bytes": "2",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Index Register X from Memory",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0xBE": {
+		"value": "0xBE",
+		"mnemonic": "LDX",
+		"bytes": "3",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Index Register X from Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, Y"
+	},
+	"0xB6": {
+		"value": "0xB6",
+		"mnemonic": "LDX",
+		"bytes": "2",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Index Register X from Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, Y"
+	},
+	"0xA0": {
+		"value": "0xA0",
+		"mnemonic": "LDY",
+		"bytes": "2",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Index Register Y from Memory",
+		"effectedBy": "X",
+		"addressingMode": "Immediate"
+	},
+	"0xAC": {
+		"value": "0xAC",
+		"mnemonic": "LDY",
+		"bytes": "3",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Index Register Y from Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0xA4": {
+		"value": "0xA4",
+		"mnemonic": "LDT",
+		"bytes": "2",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Index Register Y from Memory",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0xBC": {
+		"value": "0xBC",
+		"mnemonic": "LDY",
+		"bytes": "3",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Index Register Y from Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, X"
+	},
+	"0xB4": {
+		"value": "0xB4",
+		"mnemonic": "LDY",
+		"bytes": "2",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Load Index Register Y from Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, X"
+	},
+	"0x4A": {
+		"value": "0x4A",
+		"mnemonic": "LSR",
+		"bytes": "1",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"C",
+			"Z"
+		],
+		"fullName": "Logical  Shift Memory or Accumulator Right",
+		"effectedBy": "",
+		"addressingMode": "Accumulator"
+	},
+	"0x4E": {
+		"value": "0x4E",
+		"mnemonic": "LSR",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"C",
+			"Z"
+		],
+		"fullName": "Logical  Shift Memory or Accumulator Right",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0x46": {
+		"value": "0x46",
+		"mnemonic": "LSR",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"C",
+			"Z"
+		],
+		"fullName": "Logical  Shift Memory or Accumulator Right",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0x5E": {
+		"value": "0x5E",
+		"mnemonic": "LSR",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"C",
+			"Z"
+		],
+		"fullName": "Logical  Shift Memory or Accumulator Right",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, X"
+	},
+	"0x56": {
+		"value": "0x56",
+		"mnemonic": "LSR",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"C",
+			"Z"
+		],
+		"fullName": "Logical  Shift Memory or Accumulator Right",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, X"
+	},
+	"0x54": {
+		"value": "0x54",
+		"mnemonic": "MVN",
+		"bytes": "3",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [],
+		"fullName": "Block Move Next",
+		"effectedBy": "",
+		"addressingMode": "Block Move"
+	},
+	"0x44": {
+		"value": "0x44",
+		"mnemonic": "MVP",
+		"bytes": "3",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [],
+		"fullName": "Block Move Previous",
+		"effectedBy": "",
+		"addressingMode": "Block Move"
+	},
+	"0xEA": {
+		"value": "0xEA",
+		"mnemonic": "NOP",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "No Operation",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0x09": {
+		"value": "0x09",
+		"mnemonic": "ORA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "OR Accumulator with Memory",
+		"effectedBy": "M",
+		"addressingMode": "Immediate"
+	},
+	"0x0D": {
+		"value": "0x0D",
+		"mnemonic": "ORA",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0x0F": {
+		"value": "0x0F",
+		"mnemonic": "ORA",
+		"bytes": "4",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Long"
+	},
+	"0x05": {
+		"value": "0x05",
+		"mnemonic": "ORA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0x12": {
+		"value": "0x12",
+		"mnemonic": "ORA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect"
+	},
+	"0x07": {
+		"value": "0x07",
+		"mnemonic": "ORA",
+		"bytes": "02",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Long"
+	},
+	"0x1D": {
+		"value": "0x1D",
+		"mnemonic": "ORA",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Index, X"
+	},
+	"0x1F": {
+		"value": "0x1F",
+		"mnemonic": "ORA",
+		"bytes": "4",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Long Indexed, X"
+	},
+	"0x19": {
+		"value": "0x19",
+		"mnemonic": "ORA",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, Y"
+	},
+	"0x15": {
+		"value": "0x15",
+		"mnemonic": "ORA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, X"
+	},
+	"0x01": {
+		"value": "0x01",
+		"mnemonic": "ORA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed Indirect, X"
+	},
+	"0x11": {
+		"value": "0x11",
+		"mnemonic": "ORA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Indexed, Y"
+	},
+	"0x17": {
+		"value": "0x17",
+		"mnemonic": "ORA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Long Indexed, Y"
+	},
+	"0x03": {
+		"value": "0x03",
+		"mnemonic": "ORA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Stack Relative"
+	},
+	"0x13": {
+		"value": "0x13",
+		"mnemonic": "ORA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "OR Accumulator with Memory",
+		"effectedBy": "",
+		"addressingMode": "Stack Realtive Indirect Indexed, Y"
+	},
+	"0xF4": {
+		"value": "0xF4",
+		"mnemonic": "PEA",
+		"bytes": "3",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "",
+		"effectedBy": "Push effective Address",
+		"addressingMode": "Stack"
+	},
+	"0xD4": {
+		"value": "0xD4",
+		"mnemonic": "PEI",
+		"bytes": "2",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "{ush Effective Indirect Address",
+		"effectedBy": "",
+		"addressingMode": "Stack"
+	},
+	"0x62": {
+		"value": "0x62",
+		"mnemonic": "PER",
+		"bytes": "3",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Push Effective PC Relative Indirect Address",
+		"effectedBy": "",
+		"addressingMode": "Stack"
+	},
+	"0x48": {
+		"value": "0x48",
+		"mnemonic": "PHA",
+		"bytes": "1",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "",
+		"effectedBy": "Push Accumulator",
+		"addressingMode": ""
+	},
+	"0x8B": {
+		"value": "0x8B",
+		"mnemonic": "PHB",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Push Data Bank Register",
+		"effectedBy": "",
+		"addressingMode": "Stack"
+	},
+	"0x0B": {
+		"value": "0x0B",
+		"mnemonic": "PHD",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Push Direct Page Register",
+		"effectedBy": "",
+		"addressingMode": "Stack"
+	},
+	"0x4B": {
+		"value": "0x4B",
+		"mnemonic": "PHK",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Push Program Bank Register",
+		"effectedBy": "",
+		"addressingMode": "Stack"
+	},
+	"0x08": {
+		"value": "0x08",
+		"mnemonic": "PHP",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Push Processor Status Register",
+		"effectedBy": "",
+		"addressingMode": "Stack"
+	},
+	"0xDA": {
+		"value": "0xDA",
+		"mnemonic": "PHX",
+		"bytes": "1",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [],
+		"fullName": "Push Index Register",
+		"effectedBy": "",
+		"addressingMode": "Stack"
+	},
+	"0x5A": {
+		"value": "0x5A",
+		"mnemonic": "PHY",
+		"bytes": "1",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [],
+		"fullName": "Push Index Register",
+		"effectedBy": "",
+		"addressingMode": "Stack"
+	},
+	"0x68": {
+		"value": "0x68",
+		"mnemonic": "PLA",
+		"bytes": "1",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Pull Accumulator",
+		"effectedBy": "",
+		"addressingMode": "Stack"
+	},
+	"0xAB": {
+		"value": "0xAB",
+		"mnemonic": "PLB",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Pull Data Bank Register",
+		"effectedBy": "",
+		"addressingMode": "Stack"
+	},
+	"0x2B": {
+		"value": "0x2B",
+		"mnemonic": "PLD",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Pull Direct Page Register",
+		"effectedBy": "",
+		"addressingMode": "Stack"
+	},
+	"0x28": {
+		"value": "0x28",
+		"mnemonic": "PLP",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [
+			"N",
+			"V",
+			"M",
+			"X",
+			"D",
+			"I",
+			"Z",
+			"C"
+		],
+		"fullName": "Pull Status Flags",
+		"effectedBy": "",
+		"addressingMode": "Stack"
+	},
+	"0xFA": {
+		"value": "0xFA",
+		"mnemonic": "PLX",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Pull Index Register X from Stack",
+		"effectedBy": "",
+		"addressingMode": "Stack"
+	},
+	"0x7A": {
+		"value": "0x7A",
+		"mnemonic": "PLY",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Pull Index Register Y from Stack",
+		"effectedBy": "",
+		"addressingMode": "Stack"
+	},
+	"0xC2": {
+		"value": "0xC2",
+		"mnemonic": "REP",
+		"bytes": "2",
+		"flagsRead": [],
+		"flagsWritten": [
+			"N",
+			"V",
+			"M",
+			"X",
+			"D",
+			"I",
+			"Z",
+			"C"
+		],
+		"fullName": "Reset Status Bits",
+		"effectedBy": "",
+		"addressingMode": "Immediate"
+	},
+	"0x2A": {
+		"value": "0x2A",
+		"mnemonic": "ROL",
+		"bytes": "1",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Rotate Memory or Accumulator Left",
+		"effectedBy": "",
+		"addressingMode": "Accumulator"
+	},
+	"0x2E": {
+		"value": "0x2E",
+		"mnemonic": "ROL",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Rotate Memory or Accumulator Left",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0x26": {
+		"value": "0x26",
+		"mnemonic": "ROL",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Rotate Memory or Accumulator Left",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0x3E": {
+		"value": "0x3E",
+		"mnemonic": "ROL",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Rotate Memory or Accumulator Left",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, X"
+	},
+	"0x36": {
+		"value": "0x36",
+		"mnemonic": "ROL",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Rotate Memory or Accumulator Left",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, X"
+	},
+	"0x6A": {
+		"value": "0x6A",
+		"mnemonic": "ROR",
+		"bytes": "1",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Rotate Memory or Accumulator Right",
+		"effectedBy": "",
+		"addressingMode": "Accumulator"
+	},
+	"0x6E": {
+		"value": "0x6E",
+		"mnemonic": "ROR",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Rotate Memory or Accumulator Right",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0x66": {
+		"value": "0x66",
+		"mnemonic": "ROR",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Rotate Memory or Accumulator Right",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0x7E": {
+		"value": "0x7E",
+		"mnemonic": "ROR",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Rotate Memory or Accumulator Right",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, X"
+	},
+	"0x76": {
+		"value": "0x76",
+		"mnemonic": "ROR",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"N",
+			"Z",
+			"C"
+		],
+		"fullName": "Rotate Memory or Accumulator Right",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, X"
+	},
+	"0x40": {
+		"value": "0x40",
+		"mnemonic": "RTI",
+		"bytes": "1",
+		"flagsRead": [
+			"E"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"M",
+			"X",
+			"D",
+			"I",
+			"Z",
+			"C"
+		],
+		"fullName": "Return from Interrupt",
+		"effectedBy": "",
+		"addressingMode": "Stack"
+	},
+	"0x6B": {
+		"value": "0x6B",
+		"mnemonic": "RTL",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Return from Subroutine Long",
+		"effectedBy": "",
+		"addressingMode": "Stack"
+	},
+	"0x60": {
+		"value": "0x60",
+		"mnemonic": "RTS",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Return from Subroutine",
+		"effectedBy": "",
+		"addressingMode": "Stack"
+	},
+	"0xE9": {
+		"value": "0xE9",
+		"mnemonic": "SBC",
+		"bytes": "2",
+		"flagsRead": [
+			"M",
+			"D",
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Subtract with Carry",
+		"effectedBy": "M",
+		"addressingMode": "Immediate"
+	},
+	"0xED": {
+		"value": "0xED",
+		"mnemonic": "SBC",
+		"bytes": "3",
+		"flagsRead": [
+			"M",
+			"D",
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Subtract with Carry",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0xEF": {
+		"value": "0xEF",
+		"mnemonic": "SBC",
+		"bytes": "4",
+		"flagsRead": [
+			"M",
+			"D",
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Subtract with Carry",
+		"effectedBy": "",
+		"addressingMode": "Absolute Long"
+	},
+	"0xE5": {
+		"value": "0xE5",
+		"mnemonic": "SBC",
+		"bytes": "2",
+		"flagsRead": [
+			"M",
+			"D",
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Subtract with Carry",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0xF2": {
+		"value": "0xF2",
+		"mnemonic": "SBC",
+		"bytes": "2",
+		"flagsRead": [
+			"M",
+			"D",
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Subtract with Carry",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect"
+	},
+	"0xE7": {
+		"value": "0xE7",
+		"mnemonic": "SBC",
+		"bytes": "2",
+		"flagsRead": [
+			"M",
+			"D",
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Subtract with Carry",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Long"
+	},
+	"0xFD": {
+		"value": "0xFD",
+		"mnemonic": "SBC",
+		"bytes": "3",
+		"flagsRead": [
+			"M",
+			"D",
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Subtract with Carry",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, X"
+	},
+	"0xFF": {
+		"value": "0xFF",
+		"mnemonic": "SBC",
+		"bytes": "4",
+		"flagsRead": [
+			"M",
+			"D",
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Subtract with Carry",
+		"effectedBy": "",
+		"addressingMode": "Absolute Long Indexed, X"
+	},
+	"0xF9": {
+		"value": "0xF9",
+		"mnemonic": "SBC",
+		"bytes": "3",
+		"flagsRead": [
+			"M",
+			"D",
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Subtract with Carry",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, Y"
+	},
+	"0xF5": {
+		"value": "0xF5",
+		"mnemonic": "SBC",
+		"bytes": "2",
+		"flagsRead": [
+			"M",
+			"D",
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Subtract with Carry",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, X"
+	},
+	"0xE1": {
+		"value": "0xE1",
+		"mnemonic": "SBC",
+		"bytes": "2",
+		"flagsRead": [
+			"M",
+			"D",
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Subtract with Carry",
+		"effectedBy": "",
+		"addressingMode": "DP Inexed Indirect, X"
+	},
+	"0xF1": {
+		"value": "0xF1",
+		"mnemonic": "SBC",
+		"bytes": "2",
+		"flagsRead": [
+			"M",
+			"D",
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Subtract with Carry",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Indexed, Y"
+	},
+	"0xF7": {
+		"value": "0xF7",
+		"mnemonic": "SBC",
+		"bytes": "2",
+		"flagsRead": [
+			"M",
+			"D",
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Subtract with Carry",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Long Indexed, Y"
+	},
+	"0xE3": {
+		"value": "0xE3",
+		"mnemonic": "SBC",
+		"bytes": "2",
+		"flagsRead": [
+			"M",
+			"D",
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Subtract with Carry",
+		"effectedBy": "",
+		"addressingMode": "Stack Relative"
+	},
+	"0xF3": {
+		"value": "0xF3",
+		"mnemonic": "SBC",
+		"bytes": "2",
+		"flagsRead": [
+			"M",
+			"D",
+			"C"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"Z",
+			"C"
+		],
+		"fullName": "Subtract with Carry",
+		"effectedBy": "",
+		"addressingMode": "Stack Relative Indexed, Y"
+	},
+	"0x38": {
+		"value": "0x38",
+		"mnemonic": "SEC",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [
+			"C"
+		],
+		"fullName": "Set Carry Flag",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0xF8": {
+		"value": "0xF8",
+		"mnemonic": "SED",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [
+			"D"
+		],
+		"fullName": "Set Decimal Mode Flag",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0x78": {
+		"value": "0x78",
+		"mnemonic": "SEI",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [
+			"I"
+		],
+		"fullName": "Set Interrupt Disable Flag",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0xE2": {
+		"value": "0xE2",
+		"mnemonic": "SEP",
+		"bytes": "2",
+		"flagsRead": [
+			"E"
+		],
+		"flagsWritten": [
+			"N",
+			"V",
+			"M",
+			"X",
+			"D",
+			"I",
+			"Z",
+			"C"
+		],
+		"fullName": "Set Status Bits",
+		"effectedBy": "",
+		"addressingMode": "Immediate"
+	},
+	"0x8D": {
+		"value": "0x8D",
+		"mnemonic": "STA",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Accumulator to Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0x8F": {
+		"value": "0x8F",
+		"mnemonic": "STA",
+		"bytes": "4",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Accumulator to Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Long"
+	},
+	"0x85": {
+		"value": "0x85",
+		"mnemonic": "STA",
+		"bytes": "",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Accumulator to Memory",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0x92": {
+		"value": "0x92",
+		"mnemonic": "STA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Accumulator to Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect"
+	},
+	"0x87": {
+		"value": "0x87",
+		"mnemonic": "STA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Accumulator to Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Long"
+	},
+	"0x9D": {
+		"value": "0x9D",
+		"mnemonic": "STA",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Accumulator to Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, X"
+	},
+	"0x9F": {
+		"value": "0x9F",
+		"mnemonic": "STA",
+		"bytes": "4",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Accumulator to Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Long Indexed, X"
+	},
+	"0x99": {
+		"value": "0x99",
+		"mnemonic": "STA",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Accumulator to Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, Y"
+	},
+	"0x95": {
+		"value": "0x95",
+		"mnemonic": "STA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Accumulator to Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, X"
+	},
+	"0x81": {
+		"value": "0x81",
+		"mnemonic": "STA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Accumulator to Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed Indirect, X"
+	},
+	"0x91": {
+		"value": "0x91",
+		"mnemonic": "STA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Accumulator to Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Indexed, Y"
+	},
+	"0x97": {
+		"value": "0x97",
+		"mnemonic": "STA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Accumulator to Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indirect Long Indexed, Y"
+	},
+	"0x83": {
+		"value": "0x83",
+		"mnemonic": "STA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Accumulator to Memory",
+		"effectedBy": "",
+		"addressingMode": "Stack Relative"
+	},
+	"0x93": {
+		"value": "0x93",
+		"mnemonic": "STA",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Accumulator to Memory",
+		"effectedBy": "",
+		"addressingMode": "Stack Relative Indirect Indexed, Y"
+	},
+	"0xDB": {
+		"value": "0xDB",
+		"mnemonic": "DTP",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Stop the Processor",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0x8E": {
+		"value": "0x8E",
+		"mnemonic": "STX",
+		"bytes": "3",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Index Register X to Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0x86": {
+		"value": "0x86",
+		"mnemonic": "STX",
+		"bytes": "2",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Index Register X to Memory",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0x96": {
+		"value": "0x96",
+		"mnemonic": "STX",
+		"bytes": "2",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Index Register X to Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, Y"
+	},
+	"0x8C": {
+		"value": "0x8C",
+		"mnemonic": "STY",
+		"bytes": "3",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Index Register Y to Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0x84": {
+		"value": "0x84",
+		"mnemonic": "STy",
+		"bytes": "2",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Index Register Y to Memory",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0x94": {
+		"value": "0x94",
+		"mnemonic": "STY",
+		"bytes": "2",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Index Register Y to Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, X"
+	},
+	"0x9C": {
+		"value": "0x9C",
+		"mnemonic": "STZ",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Zero to Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0x64": {
+		"value": "0x64",
+		"mnemonic": "STZ",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Zero to Memory",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0x9E": {
+		"value": "0x9E",
+		"mnemonic": "STZ",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Zero to Memory",
+		"effectedBy": "",
+		"addressingMode": "Absolute Indexed, X"
+	},
+	"0x74": {
+		"value": "0x74",
+		"mnemonic": "STZ",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [],
+		"fullName": "Store Zero to Memory",
+		"effectedBy": "",
+		"addressingMode": "DP Indexed, X"
+	},
+	"0xAA": {
+		"value": "0xAA",
+		"mnemonic": "TAX",
+		"bytes": "1",
+		"flagsRead": [
+			"M",
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Transfer Accumulator to Index Register X",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0xA8": {
+		"value": "0xA8",
+		"mnemonic": "TAY",
+		"bytes": "1",
+		"flagsRead": [
+			"M",
+			"X"
+		],
+		"flagsWritten": [],
+		"fullName": "Transfer Accumulator to Index Register Y",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0x5B": {
+		"value": "0x5B",
+		"mnemonic": "TCD",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Transfer 16-Bit Accumulator to Direct Page Register",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0x1B": {
+		"value": "0x1B",
+		"mnemonic": "TCS",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Transfer 16-Bit Accumulator to Stack Pointer",
+		"effectedBy": "",
+		"addressingMode": "Imnplied"
+	},
+	"0x7B": {
+		"value": "0x7B",
+		"mnemonic": "TDC",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Transfer Direct Page to 16-Bit Accumulator",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0x1C": {
+		"value": "0x1C",
+		"mnemonic": "TRB",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"Z"
+		],
+		"fullName": "Test and Reset Memory Bits Against Accumulator",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0x14": {
+		"value": "0x14",
+		"mnemonic": "TRB",
+		"bytes": "",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"Z"
+		],
+		"fullName": "Test and Reset Memory Bits Against Accumulator",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0x0C": {
+		"value": "0x0C",
+		"mnemonic": "TSB",
+		"bytes": "3",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"Z"
+		],
+		"fullName": "Test and Set Bits Memory Against Accumulator",
+		"effectedBy": "",
+		"addressingMode": "Absolute"
+	},
+	"0x04": {
+		"value": "0x04",
+		"mnemonic": "TSB",
+		"bytes": "2",
+		"flagsRead": [
+			"M"
+		],
+		"flagsWritten": [
+			"Z"
+		],
+		"fullName": "Test and Set Bits Memory Against Accumulator",
+		"effectedBy": "",
+		"addressingMode": "Direct Page"
+	},
+	"0x3B": {
+		"value": "0x3B",
+		"mnemonic": "TSC",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Transfer Stack Popinter to 16-Bit Accumulator",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0xBA": {
+		"value": "0xBA",
+		"mnemonic": "TSX",
+		"bytes": "1",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Transfer Stack Pointer to Index Register X",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0x8A": {
+		"value": "0x8A",
+		"mnemonic": "TXA",
+		"bytes": "1",
+		"flagsRead": [
+			"M",
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Transfer Index Register X to Accumulator",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0x9A": {
+		"value": "0x9A",
+		"mnemonic": "TXS",
+		"bytes": "1",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [],
+		"fullName": "Transfer Index Register X to Stack Pointer",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0x9B": {
+		"value": "0x9B",
+		"mnemonic": "TXY",
+		"bytes": "1",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Transfer Index Register X to Y",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0x98": {
+		"value": "0x98",
+		"mnemonic": "TYA",
+		"bytes": "1",
+		"flagsRead": [
+			"M",
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Transfer Index Register to Accumulator",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0xBB": {
+		"value": "0xBB",
+		"mnemonic": "TYX",
+		"bytes": "1",
+		"flagsRead": [
+			"X"
+		],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Transfer Index Register Y to X",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0xCB": {
+		"value": "0xCB",
+		"mnemonic": "WAI",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Wait For Interrupt",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0x42": {
+		"value": "0x42",
+		"mnemonic": "WDM",
+		"bytes": "2",
+		"flagsRead": [],
+		"flagsWritten": [],
+		"fullName": "Reserved for Future Expansion. Named after William D. Mensch, Jr",
+		"effectedBy": "",
+		"addressingMode": "None"
+	},
+	"0xEB": {
+		"value": "0xEB",
+		"mnemonic": "XBA",
+		"bytes": "1",
+		"flagsRead": [],
+		"flagsWritten": [
+			"N",
+			"Z"
+		],
+		"fullName": "Exchange the B and A Accumulators",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	},
+	"0xFB": {
+		"value": "0xFB",
+		"mnemonic": "XCE",
+		"bytes": "1",
+		"flagsRead": [
+			"C"
+		],
+		"flagsWritten": [
+			"M",
+			"X",
+			"C"
+		],
+		"fullName": "Exchange Carry and Emulator Bits",
+		"effectedBy": "",
+		"addressingMode": "Implied"
+	}
+}

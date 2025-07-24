@@ -1,4 +1,5 @@
-let test = require('./fourth.json')
+// let test = require('./fourth.json')
+let opcodes = require('./opcodes.json');
 const fs = require('node:fs');
 
 function testConvert() {
@@ -17,11 +18,25 @@ function testConvert() {
 
     // console.log(JSON.stringify(jsonArray));
     fs.writeFile('./fourth.log', JSON.stringify(jsonArray), (err) => {
-        
+
     });
 }
 
-testConvert();
+function opCodeConvert() {
+    jsonArray = {};
+
+    Object.keys(opcodes).forEach(opcodeKey => {
+        jsonArray[parseInt(opcodes[opcodeKey].value, 16)] = opcodes[opcodeKey];
+    });
+
+    fs.writeFile(
+        './newOpcodes.json',
+        JSON.stringify(jsonArray, undefined, '\t'),
+        err => { if (err) console.log(err) });
+}
+
+// testConvert();
+opCodeConvert();
 
 //Run with node converter.json > log.json
 //Replace log.json with the file name, and will produce a valid JSON array

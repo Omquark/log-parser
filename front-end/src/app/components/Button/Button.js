@@ -2,13 +2,14 @@ export default function Button(props) {
     const { children, onClick, className, id, role, disabled } = props;
 
     return (
-        <div>
+        <div className=''>
             <button
                 className={
-                    'bg-purple-800 dark:bg-cyan-300 text-gray-300 dark:text-slate-600 ' +
-                    'disabled:bg-cyan-300 dark:disabled:bg-cyan-700 disabled:text-slate-600 disabled:dark:text-slate-300 ' +
-                    'mx-0.5 mt-1.5 px-2 pb-1 rounded-md ' +
-                    'font-bold text-md w-36 ' + className
+                    'p-1 mx-auto my-1 hover:cursor-pointer w-full ' +
+                    'border-1 border-b-2 border-r-2 border-black rounded-md ' +
+                    'bg-stone-400 hover:bg-stone-200 ' +
+                    'dark:bg-stone-600 dark:hover:bg-stone-400 ' + 
+                    'text-white hover:text-black ' + className
                 }
                 onClick={onClick}
                 id={id}
