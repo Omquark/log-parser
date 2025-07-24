@@ -2261,7 +2261,7 @@
 	},
 	{
 		"value": "0xDB",
-		"mnemonic": "DTP",
+		"mnemonic": "STP",
 		"bytes": "1",
 		"flagsRead": [],
 		"flagsWritten": [],
