@@ -3071,7 +3071,7 @@
 		"effectedBy": "",
 		"addressingMode": "DP Indirect Long Indexed, Y"
 	},
-	"218": {
+	"216": {
 		"value": "0xD8",
 		"mnemonic": "CLD",
 		"bytes": "1",
