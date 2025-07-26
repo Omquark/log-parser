@@ -23,7 +23,7 @@ class cpu65816 {
      * @param {boolean} e The state of the E flag. 1 = emulation on, 0 = emulation off
      */
     static flagMask(flags, e = false) {
-        const E1 = { N: 0x80, V: 0x40, nil: 0x20, B: 0x10, D: 0x08, I: 0x04, Z: 0x02, C: 0x01 };
+        const E1 = { N: 0x80, V: 0x40, /*nil: 0x20,*/ B: 0x10, D: 0x08, I: 0x04, Z: 0x02, C: 0x01 };
         const E0 = { N: 0x80, V: 0x40, M: 0x20, X: 0x10, D: 0x08, I: 0x04, Z: 0x02, C: 0x01 };
         let result = 0x00;
 
@@ -43,7 +43,7 @@ class cpu65816 {
      * @param {Number} p The value of the P register
      */
     static flagUnmask(p, e = false) {
-        const E1 = { 0x80: 'N', 0x40: 'V', 0x20: 'nil', 0x10: 'B', 0x08: 'D', 0x04: 'I', 0x02: 'Z', 0x01: 'C' };
+        const E1 = { 0x80: 'N', 0x40: 'V', /*0x20: 'nil',*/ 0x10: 'B', 0x08: 'D', 0x04: 'I', 0x02: 'Z', 0x01: 'C' };
         const E0 = { 0x80: 'N', 0x40: 'V', 0x20: 'M', 0x10: 'X', 0x08: 'D', 0x04: 'I', 0x02: 'Z', 0x01: 'C' };
 
         let result = "";

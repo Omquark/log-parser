@@ -1,8 +1,13 @@
-class memory{
-    constructor(){
-        this.size = 0x1000000; //16MB
+class memory {
+    constructor() {
+        // this.size = 0x1000000; //16MB
+        Object.defineProperty(this, 'size', {
+            value: 0x1000000,
+            writable: false,
+        });
         const buffer = new ArrayBuffer(this.size);
         this.memory = new Uint8Array(buffer);
+        // this.memory.fill(0x00, 0x00, this.)
     }
 
     /**
@@ -72,12 +77,15 @@ class memory{
      * @returns 
      */
     writeBlock(offset, data) {
-        if (!Array.isArray(data)) return;
-        let dataArray = UInt8Array.from(data);
-        // let dataArray = Array.isArray(data) ? [...data] : [data];
-        if (offset + dataArray.length >= this.memory.length) return;
+        let dataArray = Uint8Array.from(data);
+        if (offset + dataArray.length >= this.memory.length) {
+            console.log('Failing from dataArray + offset going beyone length of memory bank')
+            return;
+        }
         for (let i = 0; i < dataArray.length; i++) {
             this.memory[offset + i] = dataArray[i];
         }
     }
 }
+
+module.exports = { memory }

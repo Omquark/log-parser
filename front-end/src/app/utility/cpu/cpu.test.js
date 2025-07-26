@@ -54,6 +54,17 @@ describe('Test to pull the correct mask for any given P value', () => {
     });
 
     it('should be able to take a value mask and unmask with the same result', () => {
-
+        let flagMask = cpu65816.flagMask('NV', false);
+        let flagUnmask = cpu65816.flagUnmask(flagMask, false);
+        expect(flagUnmask).toMatch(/[NV]{2}/);
+        flagMask = cpu65816.flagMask('NVBDIZC', true);
+        flagUnmask = cpu65816.flagUnmask(flagMask, true);
+        expect(flagUnmask).toMatch(/[NVDBIZC]{7}/);
+        flagMask = cpu65816.flagMask('NVMXDIZC', false);
+        flagUnmask = cpu65816.flagUnmask(flagMask, true);
+        expect(flagUnmask).toMatch(/[NVBZIDC]{7}/);
+        flagMask = cpu65816.flagMask('NVMXDIZC', false);
+        flagUnmask = cpu65816.flagUnmask(flagMask, false);
+        expect(flagUnmask).toMatch(/[NVMXZIDC]{8}/);
     });
 });
